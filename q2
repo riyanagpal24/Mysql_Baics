@@ -1,0 +1,5 @@
+/*
+to find the city names ending with vowels
+*/
+
+SELECT DISTINCT CITY FROM STATION WHERE CITY REGEXP "[aeiou]$";
